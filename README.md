@@ -55,10 +55,10 @@ A summary of the access policies in place can be found in the table below:
 
 | Name          | Publicly Accessible  | Allowed IP Address| 
 | ------------- |:-------------:       |  ---------------- |
-| Jumpbox       | No                   | 10.0.0.4          |
-| Web-1         | Yes/No               | 10.0.0.9          |
-| Web-2         | Yes/No               | 10.0.0.8          |
-| Elk Server    | Yes/No               | 10.1.0.4          |
+| Jumpbox       | No                   | 20.25.125.184     |
+| Web-1         | No                   | 10.0.0.9          |
+| Web-2         | No                   | 10.0.0.8          |
+| Elk Server    | No                   | 10.1.0.4          |
 
 # Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because automation of the configuration process provided simple, reliable, and consistent configuration management and allowed for quick application deployment.
