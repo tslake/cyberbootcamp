@@ -92,12 +92,12 @@ The following screenshot displays the result of running docker ps after successf
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-    * WEb-1 (IP Address 10.0.0.9)
-    * Web-2 (IP Address 10.0.08)
+* WEb-1 (IP Address 10.0.0.9)
+* Web-2 (IP Address 10.0.08)
 
 We have installed the following Beats on these machines:
-    * Filebeat
-    * Metricbeat
+* Filebeat
+* Metricbeat
     
 These Beats allow us to collect the following information from each machine:
 
