@@ -69,7 +69,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 * Intalls pip3
 * Installs docker Python module 
     * #### Use apt module:
-    - name: Install docker.io
+        * - name: Install docker.io
       apt:
         update_cache: yes
         name: docker.io
