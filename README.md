@@ -35,8 +35,8 @@ The configuration details of each machine may be found below.
 
 | Name          | Function      | IP Address  | Operating System  |
 | ------------- |:-------------:| -----:      |  ---------------- |
-| Jumpbox       | Gateway       | 10.0.0.4    | Linux             |
-| col 2 is      | centered      |   $12 |
+| Jumpbox       | Gateway       | 10.0.0.4    | Linux (Ubuntu 18.04 LTS  |
+| Web-1         | Web Server    | 10.0.0.9    | Linux (Ubuntu 18.04 LTS) |
 | zebra stripes | are neat      |    $1 |
 
 There must be at least 3 dashes separating each header cell.
