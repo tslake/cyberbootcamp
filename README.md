@@ -11,8 +11,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
 This document contains the following details:
 
 * Description of the Topology
-Access Policies
-ELK Configuration
+* Access Policies
+* ELK Configuration
 
 Beats in Use
 Machines Being Monitored
