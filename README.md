@@ -101,18 +101,18 @@ We have installed the following Beats on these machines:
     
 These Beats allow us to collect the following information from each machine:
 
-    * Filebeat monitors and collects audit logs, deprecation logs as well as server logs, in the Filebeat ElasticSearch module. From the audit logs, I would expect to see login attemps passess and failures as well as authentication successes and failures. Metricbeats collects metrics and statistics from the systems and services running on the servers. These metrics can produce statuses on the systems/services such as their uptime stats, CPU stats and connection stats. 
+* Filebeat monitors and collects audit logs, deprecation logs as well as server logs, in the Filebeat ElasticSearch module. From the audit logs, I would expect to see login attemps passess and failures as well as authentication successes and failures. Metricbeats collects metrics and statistics from the systems and services running on the servers. These metrics can produce statuses on the systems/services such as their uptime stats, CPU stats and connection stats. 
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned:
 SSH into the control node and follow the steps below:
 
-    * Copy the filebeat-config.yml to /etc/ansible/files.
-    * Update the /etc/ansible/host file to include the Private IP of the ELK-Server to the ElasticSearch and Kibana Sections of the Configuration File
-    * Run the playbook, and navigate to ELK-Server-PublicIP:5601/app/kibana to check that the installation worked as expected.
+* Copy the filebeat-config.yml to /etc/ansible/files.
+* Update the /etc/ansible/host file to include the Private IP of the ELK-Server to the ElasticSearch and Kibana Sections of the Configuration File
+* Run the playbook, and navigate to ELK-Server-PublicIP:5601/app/kibana to check that the installation worked as expected.
 
-    * The filebeat playbook.yml is the playbook, and it was copied to /etc/ansible/files. 
-    * The /etc/ansible/host.config file is updated to make Ansible run the playbook on a specific machine.
-    * In the etc/ansible/hosts file, updates must be made to specify which machine to install Elk server on versus which to install Filebeat on. The webservers group  contains the IP addressess of the VMs that filebeat will be installed on and the elkservers group contains the IP address of the machine the Elk server will be installed on. 
-    * In a new web browser, navigating to (http://[your.ELK-VM.External.IP]:5601/app/kibana) will launch the Kibana Web Portal to verify the ELK server is running.
+* The filebeat playbook.yml is the playbook, and it was copied to /etc/ansible/files. 
+* The /etc/ansible/host.config file is updated to make Ansible run the playbook on a specific machine.
+* In the etc/ansible/hosts file, updates must be made to specify which machine to install Elk server on versus which to install Filebeat on. The webservers group  contains the IP addressess of the VMs that filebeat will be installed on and the elkservers group contains the IP address of the machine the Elk server will be installed on. 
+* In a new web browser, navigating to (http://[your.ELK-VM.External.IP]:5601/app/kibana) will launch the Kibana Web Portal to verify the ELK server is running.
 
