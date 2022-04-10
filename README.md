@@ -35,7 +35,7 @@ The configuration details of each machine may be found below.
 
 | Name          | Function           | IP Address  | Operating System  |
 | ------------- |:-------------:| -----:| ---------------------------- |
-| col 3 is      | right-aligned | $1600 |
+| Jumpbox       | Gateway       | 10.0.0.4 | Linux
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
