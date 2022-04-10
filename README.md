@@ -37,16 +37,9 @@ The configuration details of each machine may be found below.
 | ------------- |:-------------:| -----:      |  ---------------- |
 | Jumpbox       | Gateway       | 10.0.0.4    | Linux (Ubuntu 18.04 LTS  |
 | Web-1         | Web Server    | 10.0.0.9    | Linux (Ubuntu 18.04 LTS) |
-| zebra stripes | are neat      |    $1 |
+| Web-2         | Web Server    | 10.0.0.8    | Linux (Ubuntu 18.04 LTS) |
 
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
 
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
 
 TODO
 
