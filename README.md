@@ -43,13 +43,13 @@ The configuration details of each machine may be found below.
 
 ## Access Policies
 The machines on the internal network are not exposed to the public Internet.
-Only the Jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+Only the Jumpbox Provisioner machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-* 23.184.225.164
+* Personal IP Address
 
 Machines within the network can only be accessed by SSH.
 
-* The machine allowed to access the ELK VM was the Jumpbox. Its private IP address is: 10.0.0.4
+* The machine allowed to access the ELK VM is the Jumpbox Provisioner. Its private IP address is: 10.0.0.4
 
 A summary of the access policies in place can be found in the table below:
 
@@ -60,14 +60,15 @@ A summary of the access policies in place can be found in the table below:
 | Web-2         | Yes/No               | 10.0.0.8          |
 | Elk Server    | Yes/No               | 10.1.0.4          |
 
-Elk Configuration
-Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
+# Elk Configuration
+Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because automation of the configuration process provided simple, reliable, and consistent configuration management and allowed for quick application deployment.
 
-TODO: What is the main advantage of automating configuration with Ansible?
+### The playbook implements the following tasks:
 
-The playbook implements the following tasks:
-
-TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
+The playbook implements the following tasks: 
+* 
+*  
+* TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc.
 ...
 ...
 
