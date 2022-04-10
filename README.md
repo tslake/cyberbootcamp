@@ -25,16 +25,16 @@ How to Use the Ansible Build
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 Load balancing ensures that the application will be highly available and responsive, in addition to restricting access to the network.
 
-###### What aspect of security do load balancers protect? 
-...Load balancers play a significant role in Security as they help to defend against denial-of-service (Ddos) attacks.
+##### What aspect of security do load balancers protect? 
+Load balancers play a significant role in Security as they help to defend against denial-of-service (Ddos) attacks.
 
-###### What is the advantage of a jump box?
-...The advantage of a jump box is their flexibily to manage multiple devices in a different zone in Security. Jump boxes also have extensive software libraries, automated backups as well as customizations. 
+##### What is the advantage of a jump box?
+The advantage of a jump box is their flexibily to manage multiple devices in a different zone in Security. Jump boxes also have extensive software libraries, automated backups as well as customizations. 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
 
-######What does Filebeat watch for?
+##### What does Filebeat watch for?
 
-######What does Metricbeat record?
+##### What does Metricbeat record?
 
 
