@@ -23,13 +23,18 @@ How to Use the Ansible Build
 
 #### Description of the Topology
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
-Load balancing ensures that the application will be highly _____, in addition to restricting _____ to the network.
+Load balancing ensures that the application will be highly available and responsive, in addition to restricting access to the network.
 
-TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?
+######What aspect of security do load balancers protect? 
+...Load balancers play a significant role in Security as they help to defend against denial-of-service (Ddos) attacks.
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
+######What is the advantage of a jump box?
+...The advantage of a jump box is their flexibily to manage multiple devices in a different zone in Security. Jump boxes also have extensive software libraries, automated backups as well as customizations. 
 
-TODO: What does Filebeat watch for?
-TODO: What does Metricbeat record?
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
+
+######What does Filebeat watch for?
+
+######What does Metricbeat record?
 
 
