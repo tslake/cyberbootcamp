@@ -41,63 +41,24 @@ The configuration details of each machine may be found below.
 | Elk Server    | Elk Stack     | 10.1.0.4    | Linux (Ubuntu 18.04 LTS) |
 
 
-TODO
-
-
-
-
-
-TODO
-
-
-
-
-
-TODO
-
-
-
-
-
-
-
-Access Policies
+## Access Policies
 The machines on the internal network are not exposed to the public Internet.
-Only the _____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
+Only the Jumpbox machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
 
-TODO: Add whitelisted IP addresses
+* 23.184.225.164
 
-Machines within the network can only be accessed by _____.
+Machines within the network can only be accessed by SSH.
 
-TODO: Which machine did you allow to access your ELK VM? What was its IP address?
+* The machine allowed to access the ELK VM was the Jumpbox. Its private IP address is: 10.0.0.4
 
-A summary of the access policies in place can be found in the table below.
+A summary of the access policies in place can be found in the table below:
 
-
-
-Name
-Publicly Accessible
-Allowed IP Addresses
-
-
-
-
-Jump Box
-Yes/No
-10.0.0.1 10.0.0.2
-
-
-
-
-
-
-
-
-
-
-
-
-
+| Name          | Publicly Accessible  | Allowed IP Address| 
+| ------------- |:-------------:       |  ---------------- |
+| Jumpbox       | No                   | 10.0.0.4          |
+| Web-1         | Yes/No               | 10.0.0.9          |
+| Web-2         | Yes/No               | 10.0.0.8          |
+| Elk Server    | Yes/No               | 10.1.0.4          |
 
 Elk Configuration
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
