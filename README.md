@@ -33,7 +33,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 
 
-| Name          | Function           | IP Address  |
+| Name          | Function           | IP Address  | Operating System  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
