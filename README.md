@@ -14,7 +14,7 @@ This document contains the following details:
 * Access Policies
 * ELK Configuration
 
-** Beats in Use
+    * Beats in Use
 ** Machines Being Monitored
 
 
