@@ -88,7 +88,7 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
-Note: The following image link needs to be updated. Replace docker_ps_output.png with the name of your screenshot image file.
+![Docker-ps](https://user-images.githubusercontent.com/95553513/162596263-a5c5a999-70da-40e2-9904-150f642e060f.png)Note: 
 
 
 Target Machines & Beats
