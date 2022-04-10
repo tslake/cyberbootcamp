@@ -38,7 +38,7 @@ The configuration details of each machine may be found below.
 | Jumpbox       | Gateway       | 10.0.0.4    | Linux (Ubuntu 18.04 LTS  |
 | Web-1         | Web Server    | 10.0.0.9    | Linux (Ubuntu 18.04 LTS) |
 | Web-2         | Web Server    | 10.0.0.8    | Linux (Ubuntu 18.04 LTS) |
-
+| Elk Server    | Elk Stack     | 10.1.0.4    | Linux (Ubuntu 18.04 LTS) |
 
 
 TODO
