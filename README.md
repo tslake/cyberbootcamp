@@ -33,7 +33,7 @@ Integrating an ELK server allows users to easily monitor the vulnerable VMs for 
 The configuration details of each machine may be found below.
 
 
-| Name          | Function              | IP Address  | Operating System  |
+| Name          | Function      |       | IP Address  | Operating System  |
 | ------------- |:-------------:| -----:| ------------| ----------------- |
 | Jumpbox       | Gateway       | 10.0.0.4 | Linux
 | col 2 is      | centered      |   $12 |
