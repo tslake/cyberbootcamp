@@ -26,8 +26,8 @@ Load balancing ensures that the application will be highly available and respons
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the logs and system traffic.
 
-* What does Filebeat watch for?
+* Filebeat monitors for specified log files and locations, while also collecting log events.
 
-* What does Metricbeat record?
+* Metricbeat records metrics and statistics, and sends them to a specified output for further analysis.
 
 
